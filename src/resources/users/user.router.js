@@ -24,4 +24,21 @@ router.route('/').post(async (req, res) => {
   );
   res.json(User.toResponse(user));
 });
+
+router.route('/:id').put(async (req, res) => {
+  const currentUserId = req.params.id;
+  const updateUser = new User({
+    login: req.body.login,
+    name: req.body.name,
+    password: req.body.password
+  });
+  const user = await usersService.update(currentUserId, updateUser);
+  res.json(User.toResponse(user));
+});
+
+router.route('/:id').delete(async (req, res) => {
+  const deleteUser = await usersService.del(req.params.id);
+  res.json(User.toResponse(deleteUser));
+});
+
 module.exports = router;
