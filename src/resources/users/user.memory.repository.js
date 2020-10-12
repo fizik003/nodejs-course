@@ -8,9 +8,9 @@ const getAll = async () => {
 };
 const get = async id => {
   const user = await DB.getUser(id);
-  // if (!user) {
-  //   throw new Error('user was not found');
-  // }
+  if (!user) {
+    throw new Error('user was not found');
+  }
 
   return user;
 };

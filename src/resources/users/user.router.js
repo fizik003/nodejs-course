@@ -26,14 +26,15 @@ router.route('/').post(async (req, res) => {
 });
 
 router.route('/:id').put(async (req, res) => {
-  const currentUserId = req.params.id;
-  const updateUser = new User({
+  const idUser = req.params.id;
+  const updateUser = {
+    id: idUser,
     login: req.body.login,
     name: req.body.name,
     password: req.body.password
-  });
-  const user = await usersService.update(currentUserId, updateUser);
-  res.json(User.toResponse(user));
+  };
+  await usersService.update(idUser, updateUser);
+  return res.json(User.toResponse(updateUser));
 });
 
 router.route('/:id').delete(async (req, res) => {
