@@ -75,6 +75,13 @@ const updateBoard = (id, changeBoard) => {
   return currentBoardIndex;
 };
 
+const deleteBoard = id => {
+  const currentBoardIndex = DB.boards.findIndex(el => el.id === id);
+  if (currentBoardIndex === -1) return currentBoardIndex;
+  const board = DB.boards.splice(currentBoardIndex, 1);
+  return board[0];
+};
+
 module.exports = {
   getAllUsers,
   getUser,
@@ -84,5 +91,6 @@ module.exports = {
   getAllBoards,
   createBoard,
   getBoard,
-  updateBoard
+  updateBoard,
+  deleteBoard
 };

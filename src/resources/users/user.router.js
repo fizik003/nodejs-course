@@ -33,7 +33,7 @@ router.route('/:id').put(async (req, res) => {
     name: req.body.name,
     password: req.body.password
   };
-  await usersService.update(idUser, updateUser);
+  usersService.update(idUser, updateUser);
   return res.json(User.toResponse(updateUser));
 });
 

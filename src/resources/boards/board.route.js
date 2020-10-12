@@ -29,8 +29,13 @@ router.route('/:id').put(async (req, res) => {
     columns: req.body.columns
   };
 
-  await boardService.update(changeBoardId, updateBoard);
+  boardService.update(changeBoardId, updateBoard);
   return res.json(Board.toResponse(updateBoard));
+});
+
+router.route('/:id').delete(async (req, res) => {
+  const deleteBoard = await boardService.del(req.params.id);
+  res.json(Board.toResponse(deleteBoard));
 });
 
 module.exports = router;

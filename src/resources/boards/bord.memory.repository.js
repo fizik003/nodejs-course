@@ -23,4 +23,10 @@ const update = async (id, changeBoard) => {
   throw new Error('board was not found');
 };
 
-module.exports = { getAll, create, get, update };
+const del = async id => {
+  const deleteBoard = await DB.deleteBoard(id);
+  if (deleteBoard === -1) throw new Error('this user was not found');
+  return deleteBoard;
+};
+
+module.exports = { getAll, create, get, update, del };
