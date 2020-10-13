@@ -11,22 +11,19 @@ const create = async board => {
 
 const get = async id => {
   const board = DB.getBoard(id);
-  if (!board) {
-    throw new Error('board was not found');
+  if (board) {
+    return board;
   }
-  return board;
 };
 
 const update = async (id, changeBoard) => {
-  const idBoardInDB = await DB.updateBoard(id, changeBoard);
-  if (idBoardInDB !== -1) return get(changeBoard.id);
-  throw new Error('board was not found');
+  const board = await DB.updateBoard(id, changeBoard);
+  if (board) return changeBoard;
 };
 
 const del = async id => {
   const deleteBoard = await DB.deleteBoard(id);
-  if (deleteBoard === -1) throw new Error('this user was not found');
-  return deleteBoard;
+  if (deleteBoard) return deleteBoard;
 };
 
 module.exports = { getAll, create, get, update, del };

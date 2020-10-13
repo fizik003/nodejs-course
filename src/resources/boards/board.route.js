@@ -1,9 +1,12 @@
 const router = require('express').Router();
 const boardService = require('./board.service');
 const Board = require('./board.model');
+
 router.route('/').get(async (req, res) => {
   const boards = await boardService.getAll();
-  res.json(boards.map(Board.toResponse));
+  if (boards) {
+    res.status(200).send(boards.map(el => Board.toResponse(el)));
+  } else res.status(404).end('not found');
 });
 
 router.route('/').post(async (req, res) => {
@@ -13,12 +16,16 @@ router.route('/').post(async (req, res) => {
       columns: req.body.columns
     })
   );
-  res.json(Board.toResponse(board));
+  if (board) {
+    res.status(200).send(Board.toResponse(board));
+  } else res.status(404).end('not found');
 });
 
 router.route('/:id').get(async (req, res) => {
   const board = await boardService.get(req.params.id);
-  res.json(Board.toResponse(board));
+  if (board) {
+    res.status(200).send(Board.toResponse(board));
+  } else res.status(404).end('not found');
 });
 
 router.route('/:id').put(async (req, res) => {
@@ -29,13 +36,17 @@ router.route('/:id').put(async (req, res) => {
     columns: req.body.columns
   };
 
-  boardService.update(changeBoardId, updateBoard);
-  return res.json(Board.toResponse(updateBoard));
+  const board = boardService.update(changeBoardId, updateBoard);
+  if (board) {
+    res.status(200).send(Board.toResponse(board));
+  } else res.status(404).end('not found');
 });
 
 router.route('/:id').delete(async (req, res) => {
   const deleteBoard = await boardService.del(req.params.id);
-  res.json(Board.toResponse(deleteBoard));
+  if (deleteBoard) {
+    res.status(200).send(deleteBoard);
+  } else res.status(404).end('not found');
 });
 
 module.exports = router;
