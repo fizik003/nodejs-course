@@ -1,0 +1,262 @@
+{"message":"::1 - - [18/Oct/2020:11:54:41 +0000] \"GET /dfd HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\"\n","level":"info"}
+{"message":"\u001b[0mGET /dfd \u001b[33m404\u001b[0m 3.930 ms - 142\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /users \u001b[32m200\u001b[0m 3.686 ms - 226\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /users \u001b[32m200\u001b[0m 6.988 ms - 226\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /dfd \u001b[33m404\u001b[0m 4.432 ms - 142\u001b[0m\n","level":"info"}
+{"message":"combine\n","level":"info"}
+{"message":"::1 - - [18/Oct/2020:13:48:12 +0000] \"GET /dfd HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\"\n","level":"info"}
+{"message":"\u001b[0mGET /dfd \u001b[33m404\u001b[0m 8.971 ms - 142\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /dfd \u001b[33m404\u001b[0m 4.242 ms - 142\u001b[0m\n","level":"info"}
+{"message":"323","level":"error"}
+{"message":"GET\n","level":"info"}
+{"message":"GET /dfd\n","level":"info"}
+info: GET /dfd
+
+{"message":"GET /dfd\n","level":"info"}
+{"message":"GET /dfd\n","level":"info"}
+{"message":"\u001b[0mGET /dfd \u001b[33m404\u001b[0m 4.585 ms - 142\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /users/?age=22&name=jim, \u001b[32m200\u001b[0m 6.178 ms - 226\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /favicon.ico \u001b[33m404\u001b[0m 1.066 ms - 150\u001b[0m\n","level":"info"}
+{"message":"::1 - - [18/Oct/2020:21:21:30 +0000] \"GET /users/?age=22&name=jim, HTTP/1.1\" 200 226 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\"\n","level":"info"}
+{"message":"::1\n","level":"info"}
+{"message":"::1 226\n","level":"info"}
+{"message":"/users/?age=22&name=jim,\n","level":"info"}
+{"message":"-\n","level":"info"}
+{"message":"-\n","level":"info"}
+{"message":"/users/?age=22&name=jim,\n","level":"info"}
+{"message":"/\n","level":"info"}
+{"message":"localhost:4000 /fdf\n","level":"info"}
+{"message":"localhost:4000/fdf /fdf\n","level":"info"}
+{"message":"localhost:4000/ /\n","level":"info"}
+{"message":"localhost:4000/ /\n","level":"info"}
+{"message":"localhost:4000/fdfdgfd/fdgf /fdfdgfd/fdgf\n","level":"info"}
+{"message":"POST localhost:4000/fdfdgfd/fdgf\n","level":"info"}
+{"message":"\u001b[0mPOST /fdfdgfd/fdgf \u001b[33m404\u001b[0m 4.585 ms - 152\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /users/?age=22 \u001b[32m200\u001b[0m 3.865 ms - 74\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /users/?age=22 \u001b[32m200\u001b[0m 163.161 ms - 226\u001b[0m\n","level":"info"}
+{"message":"[object Object]\n","level":"info"}
+{"message":"[object Object]\n","level":"info"}
+{"message":"localhost:4000/?age=22&name=jim,\n","level":"info"}
+{"message":"localhost:4000/?age=22&name=jim,\n","level":"info"}
+{"message":"localhost:4000/?age=22&name=jim,\n","level":"info"}
+{"message":"localhost:4000/?age=22&name=jim, {\"age\":\"22\",\"name\":\"jim,\"}\n","level":"info"}
+{"message":"localhost:4000/fdf {} {}\n","level":"info"}
+{"message":"localhost:4000/ {} {}\n","level":"info"}
+{"message":"localhost:4000/swagger-ui-init.js {} {}\n","level":"info"}
+{"message":"localhost:4000/swagger-ui-bundle.js {} {}\n","level":"info"}
+{"message":"localhost:4000/swagger-ui.css {} {}\n","level":"info"}
+{"message":"localhost:4000/swagger-ui-standalone-preset.js {} {}\n","level":"info"}
+{"message":"localhost:4000/ {} {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}\n","level":"info"}
+{"message":"localhost:4000/ {} {\"name\":\"string\",\"login\":\"string\",\"password\":\"string\"}\n","level":"info"}
+{"message":"localhost:4000/a6d7878a-f439-4716-ac3f-f7a8b28faffe {} {}\n","level":"info"}
+{"message":"localhost:4000/?age=22 {\"age\":\"22\"} {}\n","level":"info"}
+{"message":"localhost:4000/?age=22 {\"age\":\"22\"} {}\n","level":"info"}
+{"message":"localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}\n","level":"info"}
+{"message":"GET localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}\n","level":"info"}
+{"message":"GET localhost:4000/?age=22&nsme=fgdfgdf [object Object] {}\n","level":"info"}
+{"message":"GET localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {} 200 9.771 ms\n","level":"info"}
+{"message":"GET 200 localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}  10.107 ms\n","level":"info"}
+{"message":" [18/Oct/2020:22:44:34 +0000] GET 200 localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}  6.110 ms\n","level":"info"}
+{"message":" [18/Oct/2020:22:46:17 +0000] GET 200 url:localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}  7.127 ms\n","level":"info"}
+{"message":" [18/Oct/2020:22:55:47 +0000] GET 200 localhost:4000/?age=22&nsme=fgdfgdf {\"age\":\"22\",\"nsme\":\"fgdfgdf\"} {}  6.049 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:03:52 +0000] GET 200 localhost:4000/?age=22&name=fgdfgdf {\"age\":\"22\",\"name\":\"fgdfgdf\"} {}  6.526 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  19.641 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  2.287 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ {} {}  1.211 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  2.713 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ {} {}  1.770 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ {} {}  1.184 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ {} {}  0.845 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ {} {}  1.182 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/9835d285-e371-4aab-8143-99a5ec08bab5 {} {}  0.799 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  2.858 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/ddc8d395-7018-491f-b2f0-0f39546b6e81 {} {}  0.872 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.812 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/f04e5f46-20db-4565-96a2-508706d52bf9 {} {}  0.672 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  1.172 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/3024f765-48e1-4c97-ab5b-0e7af2bd3097 {} {}  1.023 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/f04e5f46-20db-4565-96a2-508706d52bf9 {} {}  4.628 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/65827cef-3c01-44a6-9bdd-fd150f6d6574 {} {}  1.160 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.914 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.746 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  2.325 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] PUT 200 localhost:4000/54eccf3d-df18-4867-98d0-1c3cfaa0060e {} {\"id\":\"54eccf3d-df18-4867-98d0-1c3cfaa0060e\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.128 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] PUT 200 localhost:4000/38eff63a-aa0a-4c25-b66b-85e4d6fa2284 {} {\"id\":\"38eff63a-aa0a-4c25-b66b-85e4d6fa2284\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"a02ea3a8-ae2c-459d-adc9-52dd4c32f5c7\",\"columnId\":null}  1.040 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/6282ce8b-e0c1-4d06-af25-32dbf528faa1 {} {}  1.562 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/54eccf3d-df18-4867-98d0-1c3cfaa0060e {} {}  0.545 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/38eff63a-aa0a-4c25-b66b-85e4d6fa2284 {} {}  0.758 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.121 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/54eccf3d-df18-4867-98d0-1c3cfaa0060e {} {}  0.851 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/c13aafe7-cb2b-4a95-bc48-0dcef0e6dc77 {} {}  0.765 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] PUT 200 localhost:4000/d20e0547-2e0f-4ab4-ad1e-74e4dc2fbd13 {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"d20e0547-2e0f-4ab4-ad1e-74e4dc2fbd13\"}  1.244 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.935 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/c13aafe7-cb2b-4a95-bc48-0dcef0e6dc77 {} {}  0.503 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/d20e0547-2e0f-4ab4-ad1e-74e4dc2fbd13 {} {}  0.420 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/92847f92-78f9-4ccd-81e7-795f8ad86021 {} {}  0.841 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/c13aafe7-cb2b-4a95-bc48-0dcef0e6dc77 {} {}  0.332 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/d20e0547-2e0f-4ab4-ad1e-74e4dc2fbd13 {} {}  0.441 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/92847f92-78f9-4ccd-81e7-795f8ad86021 {} {}  0.418 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/a02ea3a8-ae2c-459d-adc9-52dd4c32f5c7 {} {}  0.712 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.206 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.333 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/c888bb7c-f956-4e3d-a77d-dda62a45bc9a {} {}  0.575 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"56dafb2f-3879-431e-83b4-49222107e1fb\",\"userId\":null,\"columnId\":null}  1.322 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"56dafb2f-3879-431e-83b4-49222107e1fb\",\"userId\":null,\"columnId\":null}  9.186 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"56dafb2f-3879-431e-83b4-49222107e1fb\",\"userId\":null,\"columnId\":null}  1.843 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"56dafb2f-3879-431e-83b4-49222107e1fb\",\"userId\":null,\"columnId\":null}  1.231 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"56dafb2f-3879-431e-83b4-49222107e1fb\",\"userId\":null,\"columnId\":null}  0.787 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.879 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/f42b70f7-108f-460f-ad85-21380d1bacf8 {} {}  0.671 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/c90bb00a-fb78-4957-8982-54fde08eda11 {} {}  0.536 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/99e73d8c-d26e-479f-8818-b003834cf06a {} {}  0.472 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/c7982d8a-0c51-4cb6-9909-d65ebc92280b {} {}  0.590 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/9386b7d8-eb87-4e0a-a58d-ae3fb1f5031f {} {}  0.756 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.917 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/56dafb2f-3879-431e-83b4-49222107e1fb {} {}  0.595 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"1d257d91-1c91-4ed4-b5dd-e6571b66d3fc\",\"boardId\":\"bab2d6bf-4647-4fbe-9f07-f0d24624dc41\"}  0.970 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"1d257d91-1c91-4ed4-b5dd-e6571b66d3fc\",\"boardId\":\"bab2d6bf-4647-4fbe-9f07-f0d24624dc41\"}  1.162 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/f42b70f7-108f-460f-ad85-21380d1bacf8 {} {}  0.390 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/c90bb00a-fb78-4957-8982-54fde08eda11 {} {}  0.387 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/99e73d8c-d26e-479f-8818-b003834cf06a {} {}  0.544 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/c7982d8a-0c51-4cb6-9909-d65ebc92280b {} {}  0.292 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 404 localhost:4000/9386b7d8-eb87-4e0a-a58d-ae3fb1f5031f {} {}  0.263 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/1d257d91-1c91-4ed4-b5dd-e6571b66d3fc {} {}  0.443 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/aa9b6b98-54aa-42ad-a276-25f63d155783 {} {}  0.564 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/8da90c08-9e6e-47bb-afbd-a7d6bc53f6b1 {} {}  0.427 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] GET 200 localhost:4000/c695f892-9b36-4d9c-9e6e-6769528c80d8 {} {}  0.896 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/8da90c08-9e6e-47bb-afbd-a7d6bc53f6b1 {} {}  0.414 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/c695f892-9b36-4d9c-9e6e-6769528c80d8 {} {}  0.427 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:07:32 +0000] DELETE 200 localhost:4000/bab2d6bf-4647-4fbe-9f07-f0d24624dc41 {} {}  0.431 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/ {} {}  3.066 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.444 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/c5d65386-2c40-4304-a04d-75bb33f2c1ca {} {}  0.580 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/c5d65386-2c40-4304-a04d-75bb33f2c1ca {} {}  0.904 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.992 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.956 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/b85214c7-59e7-4717-9455-e1875c839da5 {} {}  0.672 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  1.134 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.006 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.944 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/ {} {}  0.504 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] PUT 200 localhost:4000/b093f406-e150-43bb-b96a-e6a0f96c518d {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"b093f406-e150-43bb-b96a-e6a0f96c518d\"}  0.890 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/b093f406-e150-43bb-b96a-e6a0f96c518d {} {}  0.565 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/ {} {}  1.749 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/b093f406-e150-43bb-b96a-e6a0f96c518d {} {}  0.424 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/ {} {}  1.368 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.039 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/bbc3ef0a-430c-4498-ad1a-ceba156cd90e {} {}  0.656 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/ {} {}  0.591 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/debc1bf0-7eeb-4d7e-b6a7-08f9d48a1515 {} {}  0.468 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  0.859 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/9835d285-e371-4aab-8143-99a5ec08bab5 {} {}  0.426 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.809 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/c028ffcf-7d40-47d6-9309-cef036efe71d {} {}  1.660 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.656 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.801 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  3.948 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/96ffc55c-f4af-461a-9296-6decbdce2a5f {} {}  0.566 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"6ad8499a-fecd-44e2-9f7a-8864619661b8\",\"boardId\":\"ad57920c-b001-479f-8ff1-ee63a927229b\"}  1.013 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"6ad8499a-fecd-44e2-9f7a-8864619661b8\",\"boardId\":\"ad57920c-b001-479f-8ff1-ee63a927229b\"}  1.122 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] PUT 200 localhost:4000/fea2e6ff-0058-4e77-9452-cd71a73b5540 {} {\"id\":\"fea2e6ff-0058-4e77-9452-cd71a73b5540\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"b0a0a5dd-44ac-44f7-a0f4-b64b4369efdc\",\"columnId\":null}  0.847 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.665 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] DELETE 200 localhost:4000/6ad8499a-fecd-44e2-9f7a-8864619661b8 {} {}  0.573 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/fea2e6ff-0058-4e77-9452-cd71a73b5540 {} {}  0.574 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] PUT 200 localhost:4000/dc5b623d-2417-4cf4-8523-d46b80c1be8b {} {\"id\":\"dc5b623d-2417-4cf4-8523-d46b80c1be8b\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.911 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/cca30aba-3a08-4389-bed3-3fbf9079ea77 {} {}  0.524 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/bbc3ef0a-430c-4498-ad1a-ceba156cd90e {} {}  0.609 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/dc5b623d-2417-4cf4-8523-d46b80c1be8b {} {}  0.589 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:09 +0000] GET 200 localhost:4000/29c994e1-4933-4f82-97fb-5b0c18cb0b00 {} {}  0.764 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 404 localhost:4000/bbc3ef0a-430c-4498-ad1a-ceba156cd90e {} {}  1.145 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/dc5b623d-2417-4cf4-8523-d46b80c1be8b {} {}  0.409 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/cca30aba-3a08-4389-bed3-3fbf9079ea77 {} {}  0.735 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/29c994e1-4933-4f82-97fb-5b0c18cb0b00 {} {}  0.620 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.176 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/ad57920c-b001-479f-8ff1-ee63a927229b {} {}  0.499 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/b0a0a5dd-44ac-44f7-a0f4-b64b4369efdc {} {}  0.661 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/0404e0d7-0c49-4fdf-b413-ce0a9adfd655 {} {}  0.398 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/0404e0d7-0c49-4fdf-b413-ce0a9adfd655 {} {}  0.295 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.723 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"e12a3da0-e8eb-4f60-a165-726c1e6dc5f2\",\"userId\":null,\"columnId\":null}  1.148 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"e12a3da0-e8eb-4f60-a165-726c1e6dc5f2\",\"userId\":null,\"columnId\":null}  2.343 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"e12a3da0-e8eb-4f60-a165-726c1e6dc5f2\",\"userId\":null,\"columnId\":null}  1.682 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"e12a3da0-e8eb-4f60-a165-726c1e6dc5f2\",\"userId\":null,\"columnId\":null}  6.278 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"e12a3da0-e8eb-4f60-a165-726c1e6dc5f2\",\"userId\":null,\"columnId\":null}  4.413 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 200 localhost:4000/5205fd02-dbb0-478c-96c6-71c05051061d {} {}  1.120 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 200 localhost:4000/00ffdd3f-805b-4174-8ca0-6492dc59fc61 {} {}  0.555 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 200 localhost:4000/0d3bd046-edc8-424e-a0ac-fed3965b3a59 {} {}  0.407 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 200 localhost:4000/3625912e-d1f2-4409-8c61-fb5a36080d3d {} {}  0.426 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 200 localhost:4000/aa8dc5d7-6a31-4190-85fa-392b9fa81a40 {} {}  0.450 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/e12a3da0-e8eb-4f60-a165-726c1e6dc5f2 {} {}  0.411 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/5205fd02-dbb0-478c-96c6-71c05051061d {} {}  0.264 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/00ffdd3f-805b-4174-8ca0-6492dc59fc61 {} {}  0.286 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/0d3bd046-edc8-424e-a0ac-fed3965b3a59 {} {}  0.705 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/3625912e-d1f2-4409-8c61-fb5a36080d3d {} {}  0.318 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] GET 404 localhost:4000/aa8dc5d7-6a31-4190-85fa-392b9fa81a40 {} {}  0.358 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:08:10 +0000] DELETE 200 localhost:4000/80913a7c-deb9-4b1a-a905-032bd713d4f3 {} {}  0.637 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.935 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/ {} {}  0.672 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/ {} {}  0.646 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/9835d285-e371-4aab-8143-99a5ec08bab5 {} {}  0.684 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/ {} {}  0.589 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.835 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.301 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.406 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/8b767ddd-3452-41bf-b191-594ea1eceb68 {} {}  0.376 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  0.676 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/71d32f96-5490-4e39-869a-c1e73c37d763 {} {}  0.521 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.804 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/ {} {}  0.453 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/71d32f96-5490-4e39-869a-c1e73c37d763 {} {}  0.362 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] PUT 200 localhost:4000/69af1ca1-d83b-4e0f-b5ac-4add736bfedc {} {\"id\":\"69af1ca1-d83b-4e0f-b5ac-4add736bfedc\",\"title\":\"Autotest updated board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  1.014 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.078 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/69af1ca1-d83b-4e0f-b5ac-4add736bfedc {} {}  0.528 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/ {} {}  0.552 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/69af1ca1-d83b-4e0f-b5ac-4add736bfedc {} {}  0.374 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/038c1feb-c294-4ae9-9ed5-f17ed11a9c90 {} {}  0.545 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/0659bad5-0347-4035-91b9-969203616f57 {} {}  0.645 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.709 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.958 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/08be3598-b236-49f7-93d2-6b341cec6dfc {} {}  0.556 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  1.064 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] PUT 200 localhost:4000/dfe7e679-6568-45ad-9c0c-7f5a5bec996e {} {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"dfe7e679-6568-45ad-9c0c-7f5a5bec996e\"}  1.309 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/08be3598-b236-49f7-93d2-6b341cec6dfc {} {}  0.301 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/7fb2742c-17f1-4df7-ac70-bffd65177ed2 {} {}  0.432 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/dfe7e679-6568-45ad-9c0c-7f5a5bec996e {} {}  0.514 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.842 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}  0.744 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/dfe7e679-6568-45ad-9c0c-7f5a5bec996e {} {}  0.371 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"d3c54c2f-8338-42a4-a494-b999b0b66bdb\",\"userId\":null,\"columnId\":null}  0.839 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"d3c54c2f-8338-42a4-a494-b999b0b66bdb\",\"userId\":null,\"columnId\":null}  0.603 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"d3c54c2f-8338-42a4-a494-b999b0b66bdb\",\"userId\":null,\"columnId\":null}  0.583 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] PUT 200 localhost:4000/c31f81b0-2522-446f-b851-a3c14b22e176 {} {\"id\":\"c31f81b0-2522-446f-b851-a3c14b22e176\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"e43fb9bd-2d30-4675-bc9f-2a30861237a8\",\"columnId\":null}  0.713 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"d3c54c2f-8338-42a4-a494-b999b0b66bdb\",\"userId\":null,\"columnId\":null}  1.372 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"d3c54c2f-8338-42a4-a494-b999b0b66bdb\",\"userId\":null,\"columnId\":null}  0.725 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  0.793 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/c31f81b0-2522-446f-b851-a3c14b22e176 {} {}  0.942 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/509c6a73-6a51-4741-9917-dbaf84761ff7 {} {}  0.413 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/6855ac8f-61db-4beb-81b6-5bad21656639 {} {}  1.355 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/240fa779-2ea8-4554-b74b-7e14d84bae68 {} {}  0.397 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/81c8149b-29cf-4cd5-a9e9-71fc000cacde {} {}  0.371 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/82508ffb-f6ff-4e33-bc05-b1fe0352a297 {} {}  0.469 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/dea23f83-8108-4853-9fea-f3af8ba3b69c {} {}  0.552 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/0659bad5-0347-4035-91b9-969203616f57 {} {}  0.479 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/d3c54c2f-8338-42a4-a494-b999b0b66bdb {} {}  0.566 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}  1.142 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/0659bad5-0347-4035-91b9-969203616f57 {} {}  0.623 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/509c6a73-6a51-4741-9917-dbaf84761ff7 {} {}  0.324 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/6855ac8f-61db-4beb-81b6-5bad21656639 {} {}  0.228 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/240fa779-2ea8-4554-b74b-7e14d84bae68 {} {}  0.271 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/81c8149b-29cf-4cd5-a9e9-71fc000cacde {} {}  0.221 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}  0.556 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/82508ffb-f6ff-4e33-bc05-b1fe0352a297 {} {}  0.481 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 404 localhost:4000/0659bad5-0347-4035-91b9-969203616f57 {} {}  0.325 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"4c7c3cd6-1df2-4f78-867f-6136dc5697e2\",\"boardId\":\"c4495b02-4ec6-4ac9-9554-8dfc2322825c\"}  0.690 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] POST 200 localhost:4000/ {} {\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"4c7c3cd6-1df2-4f78-867f-6136dc5697e2\",\"boardId\":\"c4495b02-4ec6-4ac9-9554-8dfc2322825c\"}  0.588 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/74293192-f821-4d70-b19f-bb401319f5ac {} {}  0.363 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/e43fb9bd-2d30-4675-bc9f-2a30861237a8 {} {}  0.354 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/4c7c3cd6-1df2-4f78-867f-6136dc5697e2 {} {}  0.386 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/2990b543-3f2e-453d-a5c0-59b2dbdcb747 {} {}  0.537 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] GET 200 localhost:4000/033bd8ed-6ab0-4f8f-9a2e-0307f6a0c240 {} {}  0.438 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/2990b543-3f2e-453d-a5c0-59b2dbdcb747 {} {}  0.398 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/033bd8ed-6ab0-4f8f-9a2e-0307f6a0c240 {} {}  0.445 ms\n","level":"info"}
+{"message":" [18/Oct/2020:23:09:00 +0000] DELETE 200 localhost:4000/c4495b02-4ec6-4ac9-9554-8dfc2322825c {} {}  0.387 ms\n","level":"info"}

@@ -5,9 +5,20 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.route');
 const taskRouter = require('./resources/tasks/task.route');
+const { logger, morgan } = require('./common/loggerConf');
 
 const app = express();
+
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
+
+app.use(
+  morgan(
+    ' [:date[clf]] :method :status :host :query :body  :response-time ms',
+    {
+      stream: logger.stream
+    }
+  )
+);
 
 app.use(express.json());
 
