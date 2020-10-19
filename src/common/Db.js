@@ -49,20 +49,21 @@ const taskDB = [
   })
 ];
 
-const getAllUsers = () => {
+const getAllUsers = async () => {
   return [...DB.users];
+  // return DB.users.map(el => JSON.stringify(User.toResponse(el)));
 };
 
-const getUser = id => {
+const getUser = async id => {
   return DB.users.filter(el => id === el.id)[0];
 };
 
-const createUser = user => {
+const createUser = async user => {
   DB.users.push(user);
   return user;
 };
 
-const updateUser = (id, user) => {
+const updateUser = async (id, user) => {
   const currentUserIndex = DB.users.findIndex(el => el.id === id);
   if (currentUserIndex + 1) {
     DB.users[currentUserIndex] = user;
@@ -70,7 +71,7 @@ const updateUser = (id, user) => {
   }
 };
 
-const deleteUser = id => {
+const deleteUser = async id => {
   const currentUserIndex = DB.users.findIndex(el => el.id === id);
   if (currentUserIndex + 1) {
     taskDB.forEach(el => {
@@ -81,20 +82,20 @@ const deleteUser = id => {
   }
 };
 
-const getAllBoards = () => {
+const getAllBoards = async () => {
   return [...DB.boards];
 };
 
-const createBoard = board => {
+const createBoard = async board => {
   DB.boards.push(board);
   return board;
 };
 
-const getBoard = id => {
-  return DB.boards.filter(el => id === el.id)[0];
+const getBoard = async id => {
+  return DB.boards.find(el => el.id === id);
 };
 
-const updateBoard = (id, changeBoard) => {
+const updateBoard = async (id, changeBoard) => {
   const currentBoardIndex = DB.boards.findIndex(el => el.id === id);
   if (currentBoardIndex + 1) {
     DB.boards[currentBoardIndex] = changeBoard;
@@ -110,7 +111,6 @@ const deleteBoard = async id => {
       const index = taskDB.findIndex(el => el.boardId === id);
       deleteTask(id, taskDB[index].id);
     }
-
     return board[0];
   }
 };
@@ -121,6 +121,7 @@ const getAllTask = async boardId => {
 
 const createTask = task => {
   taskDB.push(task);
+  return task;
 };
 
 const updateTask = async task => {
@@ -137,7 +138,7 @@ const deleteTask = async (boardId, taskId) => {
   });
   if (idTaskinArray + 1) {
     const task = taskDB.splice(idTaskinArray, 1);
-    return task;
+    return task[0];
   }
 };
 

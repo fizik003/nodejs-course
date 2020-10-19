@@ -3,8 +3,9 @@
 const DB = require('../../common/Db');
 
 const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return DB.getAllUsers();
+  const users = await DB.getAllUsers();
+  if (!users) throw new Error('Eror get users');
+  return users;
 };
 const get = async id => {
   const user = await DB.getUser(id);
@@ -16,19 +17,22 @@ const get = async id => {
 };
 
 const update = async (id, user) => {
-  const idArrayUser = await DB.updateUser(id, user);
-  if (idArrayUser !== -1) return get(user.id);
-  throw new Error('user was not found');
+  await DB.updateUser(id, user);
+  if (!user) throw new Error(`Error update user: user with id ${id} not found`);
+  return get(user.id);
 };
 
 const create = async user => {
-  DB.createUser(user);
+  const newUser = DB.createUser(user);
+  if (!newUser) throw new Error('Error create: user not created');
   return get(user.id);
 };
 
 const del = async id => {
   const deleteUser = await DB.deleteUser(id);
-  if (deleteUser === -1) throw new Error('this user was not found');
+  if (!deleteUser) {
+    throw new Error(`Error delete user:  user with id ${id} not found`);
+  }
   return deleteUser;
 };
 

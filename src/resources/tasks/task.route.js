@@ -3,17 +3,21 @@ const Task = require('./task.model');
 const taskService = require('./task.service');
 
 router.route('/').get(async (req, res) => {
-  const tasksByBoard = await taskService.getAll(req.params.boardId);
-  if (tasksByBoard) {
+  try {
+    const tasksByBoard = await taskService.getAll(req.params.boardId);
     res.status(200).send(tasksByBoard.map(el => Task.toResponse(el)));
-  } else res.status(404).end('not found');
+  } catch (err) {
+    res.status(404).end('not found');
+  }
 });
 
 router.route('/:taskId').get(async (req, res) => {
-  const task = await taskService.get(req.params.boardId, req.params.taskId);
-  if (task) {
+  try {
+    const task = await taskService.get(req.params.boardId, req.params.taskId);
     res.status(200).send(Task.toResponse(task));
-  } else res.status(404).end('not found');
+  } catch (err) {
+    res.status(404).end('not found');
+  }
 });
 
 router.route('/').post(async (req, res) => {
@@ -25,10 +29,13 @@ router.route('/').post(async (req, res) => {
     boardId: req.params.boardId,
     columnId: req.body.columnId
   });
-  const task = await taskService.create(newTask);
-  if (task) {
+  try {
+    const task = await taskService.create(newTask);
+
     res.status(200).send(Task.toResponse(task));
-  } else res.status(404).end('not found');
+  } catch (err) {
+    res.status(404).end('not found');
+  }
 });
 
 router.route('/:taskId').put(async (req, res) => {
@@ -42,20 +49,23 @@ router.route('/:taskId').put(async (req, res) => {
     columnId: req.body.columnId
   };
 
-  const updateTask = await taskService.update(changeTask);
-  if (updateTask) {
+  try {
+    const updateTask = await taskService.update(changeTask);
     res.status(200).send(updateTask);
-  } else res.status(404).end('not found');
+  } catch (err) {
+    res.status(404).end('not found');
+  }
 });
 
 router.route('/:taskId').delete(async (req, res) => {
-  const deleteTask = await taskService.del(
-    req.params.boardId,
-    req.params.taskId
-  );
-  if (deleteTask) {
+  try {
+    const deleteTask = await taskService.del(
+      req.params.boardId,
+      req.params.taskId
+    );
+
     res.status(200).send(deleteTask);
-  } else {
+  } catch (err) {
     res.status(404).end('not found');
   }
 });
