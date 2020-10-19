@@ -17,8 +17,10 @@ const get = async id => {
 };
 
 const update = async (id, user) => {
-  await DB.updateUser(id, user);
-  if (!user) throw new Error(`Error update user: user with id ${id} not found`);
+  const changedUser = await DB.updateUser(id, user);
+  if (!changedUser) {
+    throw new Error(`Error update user: user with id ${id} not found`);
+  }
   return get(user.id);
 };
 
