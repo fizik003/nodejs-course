@@ -12,7 +12,7 @@ const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 process.on('uncaughtException', err => {
-  console.error(`captured error: ${err.message}`);
+  console.error(`captured error: ${err.stack}`);
   // eslint-disable-next-line no-process-exit
   process.exit(1);
 });
@@ -51,7 +51,7 @@ app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 
 app.use((err, req, res) => {
-  if (err.stack) {
+  if (err) {
     logger.error(err.stack);
     res.status(500).send('Internal server error');
     // next(err);
