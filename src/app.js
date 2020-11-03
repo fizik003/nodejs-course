@@ -7,19 +7,20 @@ const boardRouter = require('./resources/boards/board.route');
 const taskRouter = require('./resources/tasks/task.route');
 const loginRouter = require('./resources/login/login.router');
 const { logger, morgan } = require('./common/loggerConf');
+const checkToken = require('./common/checkToken');
 
 const app = express();
 
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 process.on('uncaughtException', err => {
-  console.error(`captured error: ${err.stack}`);
+  logger.error(`captured error: ${err.stack}`);
   // eslint-disable-next-line no-process-exit
   process.exit(1);
 });
 
 process.on('unhandledRejection', reason => {
-  console.error(`Unhandled rejection detected: ${reason.message}`);
+  logger.error(`Unhandled rejection detected: ${reason.message}`);
   // eslint-disable-next-line no-process-exit
   process.exit(1);
 });
@@ -44,7 +45,7 @@ app.use('/', (req, res, next) => {
   }
   next();
 });
-
+app.use(checkToken);
 app.use('/login', loginRouter);
 
 app.use('/users', userRouter);
