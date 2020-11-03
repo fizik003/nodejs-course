@@ -5,6 +5,7 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.route');
 const taskRouter = require('./resources/tasks/task.route');
+const loginRouter = require('./resources/login/login.router');
 const { logger, morgan } = require('./common/loggerConf');
 
 const app = express();
@@ -43,6 +44,8 @@ app.use('/', (req, res, next) => {
   }
   next();
 });
+
+app.use('/login', loginRouter);
 
 app.use('/users', userRouter);
 

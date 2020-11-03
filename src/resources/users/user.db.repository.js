@@ -35,4 +35,9 @@ const del = async id => {
   return deletId;
 };
 
-module.exports = { getAll, get, create, update, del };
+const getByProps = async props => {
+  const user = await User.findOne(props);
+  return user;
+};
+
+module.exports = { getAll, get, create, update, del, getByProps };
