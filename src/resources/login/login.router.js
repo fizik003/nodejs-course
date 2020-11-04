@@ -9,7 +9,7 @@ router.post('/', async (req, res) => {
     logger.error('user not found');
     res.status(403).end('wrong login/password');
   } else {
-    res.status(200).json(token);
+    res.status(200).json({ token });
   }
 });
 

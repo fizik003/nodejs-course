@@ -3,7 +3,7 @@ const { JWT_SECRET_KEY } = require('../common/config');
 const { logger } = require('./loggerConf');
 
 module.exports = (req, res, next) => {
-  const openPath = ['/doc', '/login'];
+  const openPath = ['/doc', '/login', '/'];
   if (openPath.includes(req.path)) return next();
   const authHeader = req.header('Authorization');
   if (!authHeader) {

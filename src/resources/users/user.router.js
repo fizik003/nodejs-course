@@ -25,11 +25,11 @@ router.route('/:id').get(async (req, res) => {
 
 router.route('/').post(async (req, res) => {
   try {
-    const newUser = new User({
+    const newUser = {
       login: req.body.login,
       name: req.body.name,
       password: req.body.password
-    });
+    };
     const user = await create(newUser);
     res.status(200).send(User.toResponse(user));
   } catch (err) {
